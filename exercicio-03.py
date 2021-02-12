@@ -54,7 +54,7 @@ while(decisao==2):
     if(maior_Nota<nota):
         maior_Nota=nota
     if(menor_Nota>nota):
-        menor_Nota=nota
+        menor_Nota=nota 
     total_Turma=total_Turma+nota
     situacao_Aluno=input("Insira a situação do aluno")
     Dicionario(numero_Notas,maior_Nota,menor_Nota)
